@@ -11,7 +11,12 @@ namespace Patterns.ChainOfResponsibility
 {
     public class ChainOfResponsibility
     {
-        //Simply stated...
+        //Simply stated, this pattern decouples the requestor from the request implementations. More specifically,
+        //there is an abstract class (RequestHandler) that has a reference of the same type of class
+        //and a method (ProcessRequest()) that must be implemented by any children.  Then, any children that implement that 
+        //method also has a reference the same class type.  When used, this reference is set to the 'successor'
+        //child.  If the current instance doesn't know how to handle the request, the class is passed along to 
+        //the successor child.
         public void Run()
         {
             Console.WriteLine("Starting Chain Of Responsibility Example");
