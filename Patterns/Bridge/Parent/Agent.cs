@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns.Bridge
+using Patterns.Bridge.Interfaces;
+
+namespace Patterns.Bridge.Parent
 {
     public class Agent
     {

@@ -39,12 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bridge\Agent.cs" />
+    <Compile Include="Bridge\Parent\Agent.cs" />
     <Compile Include="Bridge\Bridge.cs" />
-    <Compile Include="Bridge\CiaAgent.cs" />
-    <Compile Include="Bridge\FbiOffice.cs" />
-    <Compile Include="Bridge\CiaOffice.cs" />
-    <Compile Include="Bridge\IOffice.cs" />
+    <Compile Include="Bridge\Child\CiaAgent.cs" />
+    <Compile Include="Bridge\ConcreteImplemetations\FbiOffice.cs" />
+    <Compile Include="Bridge\ConcreteImplemetations\CiaOffice.cs" />
+    <Compile Include="Bridge\Interface\IOffice.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

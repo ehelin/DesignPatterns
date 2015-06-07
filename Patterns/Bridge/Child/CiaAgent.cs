@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns.Bridge
+using Patterns.Bridge.Parent;
+using Patterns.Bridge.Interfaces;
+
+namespace Patterns.Bridge.Child
 {
     public class CiaAgent : Agent
     {

@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns.Bridge
+using Patterns.Bridge.Interfaces;
+
+namespace Patterns.Bridge.ConcreteImplemetations
 {
-    public class FbiOffice : IOffice
+    public class CiaOffice : IOffice
     {
         public string GiveSupport()
         {
-            string support = "Help from FBI office";
+            string support = "Help from CIA office";
 
             return support;
         }
