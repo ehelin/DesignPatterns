@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Patterns.Bridge.Parent;
 using Patterns.Bridge.Interfaces;
-using Patterns.Bridge.ConcreteImplemetations;
+using Patterns.Bridge.Implemetations;
 using Patterns.Bridge.Child;
 
 namespace Patterns.Bridge

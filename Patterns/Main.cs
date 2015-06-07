@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Patterns.Bridge;
 using Patterns.ChainOfResponsibility;
+using Patterns.Command;
 
 namespace Patterns
 {
@@ -16,6 +17,7 @@ namespace Patterns
         {
             RunBridge(); 
             RunChainOfResonsibility();
+            RunCommand();
         }
 
         private void RunBridge()
@@ -27,6 +29,11 @@ namespace Patterns
         {
             ChainOfResponsibility.ChainOfResponsibility cor = new ChainOfResponsibility.ChainOfResponsibility();
             cor.Run();
+        }
+        private void RunCommand()
+        {
+            Command.Command c = new Command.Command();
+            c.Run();
         }
     }
 }

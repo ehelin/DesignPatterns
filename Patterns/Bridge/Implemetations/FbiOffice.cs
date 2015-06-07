@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 using Patterns.Bridge.Interfaces;
 
-namespace Patterns.Bridge.ConcreteImplemetations
+namespace Patterns.Bridge.Implemetations
 {
-    public class CiaOffice : IOffice
+    public class FbiOffice : IOffice
     {
         public string GiveSupport()
         {
-            string support = "Help from CIA office";
+            string support = "Help from FBI office";
 
             return support;
         }

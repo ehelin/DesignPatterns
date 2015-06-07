@@ -42,8 +42,8 @@
     <Compile Include="Bridge\Parent\Agent.cs" />
     <Compile Include="Bridge\Bridge.cs" />
     <Compile Include="Bridge\Child\CiaAgent.cs" />
-    <Compile Include="Bridge\ConcreteImplemetations\FbiOffice.cs" />
-    <Compile Include="Bridge\ConcreteImplemetations\CiaOffice.cs" />
+    <Compile Include="Bridge\Implemetations\FbiOffice.cs" />
+    <Compile Include="Bridge\Implemetations\CiaOffice.cs" />
     <Compile Include="Bridge\Interface\IOffice.cs" />
     <Compile Include="ChainOfResponsibility\AbstractHandler\RequestHandler.cs" />
     <Compile Include="ChainOfResponsibility\ChainOfResponsibility.cs" />
@@ -51,6 +51,18 @@
     <Compile Include="ChainOfResponsibility\RequestHandlers\RequestThree.cs" />
     <Compile Include="ChainOfResponsibility\RequestHandlers\RequestTwo.cs" />
     <Compile Include="ChainOfResponsibility\RequestHandlers\RequestOne.cs" />
+    <Compile Include="Command\Abstract\CmdAbstract.cs" />
+    <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\Implementations\Commands\CmdArchiveOrder.cs" />
+    <Compile Include="Command\Implementations\Commands\CmdShipOrder.cs" />
+    <Compile Include="Command\Implementations\Commands\CmdFillOrder.cs" />
+    <Compile Include="Command\Implementations\Commands\CmdCreateOrder.cs" />
+    <Compile Include="Command\Implementations\Receivers\RecArchiveOrder.cs" />
+    <Compile Include="Command\Implementations\Receivers\RecCreateOrder.cs" />
+    <Compile Include="Command\Implementations\Receivers\RecFillOrder.cs" />
+    <Compile Include="Command\Implementations\Receivers\RecShipOrder.cs" />
+    <Compile Include="Command\Interfaces\IReceiver.cs" />
+    <Compile Include="Command\Invoker\OrderInvoker.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
