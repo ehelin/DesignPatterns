@@ -45,9 +45,16 @@
     <Compile Include="Bridge\ConcreteImplemetations\FbiOffice.cs" />
     <Compile Include="Bridge\ConcreteImplemetations\CiaOffice.cs" />
     <Compile Include="Bridge\Interface\IOffice.cs" />
+    <Compile Include="ChainOfResponsibility\AbstractHandler\RequestHandler.cs" />
+    <Compile Include="ChainOfResponsibility\ChainOfResponsibility.cs" />
+    <Compile Include="ChainOfResponsibility\RequestHandlers\RequestFour.cs" />
+    <Compile Include="ChainOfResponsibility\RequestHandlers\RequestThree.cs" />
+    <Compile Include="ChainOfResponsibility\RequestHandlers\RequestTwo.cs" />
+    <Compile Include="ChainOfResponsibility\RequestHandlers\RequestOne.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

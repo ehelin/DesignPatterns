@@ -8,7 +8,7 @@ using Patterns.Bridge.Interfaces;
 
 namespace Patterns.Bridge.Parent
 {
-    public class Agent
+    public abstract class Agent
     {
         protected IOffice SupportOffice {get;set;}
 
