@@ -13,10 +13,13 @@ using Patterns.Command.Interfaces;
 namespace Patterns.Command
 {
     public class Command
-    {        
-        //This pattern encapsulates a receiver (request action) within a command (requestO and the executes that in an invoker. The command, 
-        //receiver and invoker know nothing about each other on specifics.  This way, any number of commands with receivers can be
-        //executed by the invoker with no changes.
+    {    
+        //This pattern has an invoker class that takes an implementation of an abstract command
+        //class that has reference to a receiver that can execute that command.  Concrete commands
+        //inherit from the abstract command class.  The receiver reference is (here) an interface that
+        //knows how to execute the command.  The invoker's command property is set with a concrete 
+        //command/receiver Interface implemenation and executed.  Many commands/receivers can be
+        //excuted without changes to the invoker, command or receiver structures.
         public void Run()
         {
             Console.WriteLine("Starting Command Example");

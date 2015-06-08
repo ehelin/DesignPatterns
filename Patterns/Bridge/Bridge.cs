@@ -13,8 +13,8 @@ namespace Patterns.Bridge
 {
     public class Bridge
     {
-        //Simply stated, this pattern separates the implementation (CiaOffice & FbiOffice) from the calling
-        //abstraction.  The parent (Agent) is an abstract class that holds a reference to an 
+        //This pattern separates the implementation (CiaOffice & FbiOffice) from the calling
+        //abstraction (client).  The parent (Agent) is an abstract class that holds a reference to an 
         //interface (IOffice) that can be set by any child classes (CiaAgent) with concrete 
         //implementations (CiaOffice & FbiOffice) that can be called (.GiveSupport()).
         public void Run()
