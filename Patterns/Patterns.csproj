@@ -63,6 +63,27 @@
     <Compile Include="Command\Implementations\Receivers\RecShipOrder.cs" />
     <Compile Include="Command\Interfaces\IReceiver.cs" />
     <Compile Include="Command\Invoker\OrderInvoker.cs" />
+    <Compile Include="FactoryMethod\Abstract\AbsCarFactory.cs" />
+    <Compile Include="FactoryMethod\FactoryMethod.cs" />
+    <Compile Include="FactoryMethod\Implementations\CarFactoryA.cs" />
+    <Compile Include="FactoryMethod\Implementations\CarFactoryB.cs" />
+    <Compile Include="FactoryMethod\Implementations\CarFactoryC.cs" />
+    <Compile Include="FactoryMethod\Implementations\CarFactoryD.cs" />
+    <Compile Include="FactoryMethod\Implementations\CarFactoryE.cs" />
+    <Compile Include="FactoryMethod\Implementations\CarFactoryF.cs" />
+    <Compile Include="FactoryMethod\Implementations\CarFactoryG.cs" />
+    <Compile Include="FactoryMethod\Implementations\CarFactoryH.cs" />
+    <Compile Include="FactoryMethod\Implementations\CarFactoryI.cs" />
+    <Compile Include="FactoryMethod\Products\Car.cs" />
+    <Compile Include="FactoryMethod\Products\CarI.cs" />
+    <Compile Include="FactoryMethod\Products\CarH.cs" />
+    <Compile Include="FactoryMethod\Products\CarG.cs" />
+    <Compile Include="FactoryMethod\Products\CarF.cs" />
+    <Compile Include="FactoryMethod\Products\CarE.cs" />
+    <Compile Include="FactoryMethod\Products\CarD.cs" />
+    <Compile Include="FactoryMethod\Products\CarC.cs" />
+    <Compile Include="FactoryMethod\Products\CarB.cs" />
+    <Compile Include="FactoryMethod\Products\CarA.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

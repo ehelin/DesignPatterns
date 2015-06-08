@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Patterns.Bridge;
 using Patterns.ChainOfResponsibility;
 using Patterns.Command;
+using Patterns.FactoryMethod;
 
 namespace Patterns
 {
@@ -18,6 +19,7 @@ namespace Patterns
             RunBridge(); 
             RunChainOfResonsibility();
             RunCommand();
+            RunFactoryMethod();
         }
 
         private void RunBridge()
@@ -34,6 +36,11 @@ namespace Patterns
         {
             Command.Command c = new Command.Command();
             c.Run();
+        }
+        private void RunFactoryMethod()
+        {
+            FactoryMethod.FactoryMethod fm = new FactoryMethod.FactoryMethod();
+            fm.Run();
         }
     }
 }
