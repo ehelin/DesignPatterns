@@ -63,6 +63,7 @@
     <Compile Include="Command\Implementations\Receivers\RecShipOrder.cs" />
     <Compile Include="Command\Interfaces\IReceiver.cs" />
     <Compile Include="Command\Invoker\OrderInvoker.cs" />
+    <Compile Include="CQRS\CQRS.cs" />
     <Compile Include="FactoryMethod\Abstract\AbsCarFactory.cs" />
     <Compile Include="FactoryMethod\FactoryMethod.cs" />
     <Compile Include="FactoryMethod\Implementations\CarFactoryA.cs" />

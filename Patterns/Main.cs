@@ -8,6 +8,7 @@ using Patterns.Bridge;
 using Patterns.ChainOfResponsibility;
 using Patterns.Command;
 using Patterns.FactoryMethod;
+using Patterns.CQRS;
 
 namespace Patterns
 {
@@ -20,6 +21,7 @@ namespace Patterns
             RunChainOfResonsibility();
             RunCommand();
             RunFactoryMethod();
+            RunCQRS();
         }
 
         private void RunBridge()
@@ -41,6 +43,11 @@ namespace Patterns
         {
             FactoryMethod.FactoryMethod fm = new FactoryMethod.FactoryMethod();
             fm.Run();
+        }
+        private void RunCQRS()
+        {
+            CQRS.CQRS c = new CQRS.CQRS();
+            c.Run();
         }
     }
 }
